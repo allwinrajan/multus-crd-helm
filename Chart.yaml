@@ -1,0 +1,14 @@
+apiVersion: v2
+name: multus-cni
+description: Install Multus CNI + CRD + CNI config
+type: application
+version: 0.1.0
+appVersion: v4.0.2
+keywords:
+  - mongodb
+  - database
+  - replicaset
+  - high-availability
+maintainers:
+  - name: allwinrajan
+    email: alwinrajan06@gmail.com

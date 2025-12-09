@@ -1,0 +1,22 @@
+apiVersion: v1
+entries:
+  multus-cni:
+  - apiVersion: v2
+    appVersion: v4.0.2
+    created: "2025-12-09T11:31:59.386362166+05:30"
+    description: Install Multus CNI + CRD + CNI config
+    digest: 7e32cc6422ef1b4af677cddb55ba2d055145c3011808a66edcc2857e46cf4005
+    keywords:
+    - mongodb
+    - database
+    - replicaset
+    - high-availability
+    maintainers:
+    - email: alwinrajan06@gmail.com
+      name: allwinrajan
+    name: multus-cni
+    type: application
+    urls:
+    - https://allwinrajan.github.io/multus-crd-helm/multus-cni-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-12-09T11:31:59.385638304+05:30"

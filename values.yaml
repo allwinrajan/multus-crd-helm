@@ -1,0 +1,19 @@
+image:
+  repository: ghcr.io/k8snetworkplumbingwg/multus-cni
+  tag: v3.9.2
+  pullPolicy: IfNotPresent
+
+serviceAccount:
+  name: multus-cni
+
+multusCniConfFile: 00-multus.conf
+
+resources: {}
+
+tolerations:
+  - operator: Exists
+
+nodeSelector: {}
+
+# Default CNI used underneath (Calico, Flannel, etc)
+defaultCni: calico
